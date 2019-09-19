@@ -298,14 +298,12 @@ p.text {
   text-align: left !important;
   font-size: 12pt !important;
   margin-bottom: 1em !important;
-  font-family: Times New Roman, Times !important;
 }
 
 p#author {
   text-transform: none !important;
-  text-align: center !important;
-  font-size: 14pt !important;
-  font-family: Times New Roman, Times !important;
+  text-align: right !important;
+  font-size: 8pt !important;
 }
 
 h1,
