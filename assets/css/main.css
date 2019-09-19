@@ -297,7 +297,7 @@ p.text {
   text-transform: lowercase !important;
   text-align: left !important;
   font-size: 12pt !important;
-  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
   text-indent: 1em !important;
 }
 
