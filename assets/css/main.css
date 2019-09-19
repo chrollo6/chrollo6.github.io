@@ -294,17 +294,18 @@ p {
 }
 
 p.text {
-  text-transform: lowercase !important;
+  text-transform: none !important;
   text-align: left !important;
   font-size: 12pt !important;
-  padding-bottom: 10px !important;
-  text-indent: 1em !important;
+  margin-bottom: 1em !important;
+  font-family: Times New Roman, Times !important;
 }
 
 p#author {
-  text-transform: lowercase !important;
-  text-align: left !important;
+  text-transform: none !important;
+  text-align: center !important;
   font-size: 14pt !important;
+  font-family: Times New Roman, Times !important;
 }
 
 h1,
