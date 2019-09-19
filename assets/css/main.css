@@ -1199,4 +1199,5 @@ p.text {
         font-family: Times New Roman, Times;
         font-size: 15px;
         text-indent: 1em;
+	text-transform:none;
 }
