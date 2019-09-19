@@ -297,13 +297,13 @@ p.text {
   text-transform: lowercase !important;
   text-align: left !important;
   font-size: 12pt !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 1em !important;
 }
 
 p#author {
   text-transform: lowercase !important;
-  text-align: right !important;
-  font-size: 8pt !important;
+  text-align: center !important;
+  font-size: 14pt !important;
 }
 
 h1,
