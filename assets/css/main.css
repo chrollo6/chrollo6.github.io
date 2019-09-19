@@ -1153,3 +1153,25 @@ body.is-preload #main {
 body.is-ie #wrapper {
   height: 100%;
 }
+
+#reference {
+	padding: 3px 3px 3px 10px;
+	margin-top: 20px;
+	margin-bottom: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #336699;
+	color: white;
+	font-family: Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+        font-weight: bold;
+	text-align: left;
+	/*
+	 * This ugly IE5 hack uses one bug to fix another; see
+	 * http://www.tantek.com/CSS/Examples/boxmodelhack.html
+	 */
+	width: 500px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 487px;
+}
