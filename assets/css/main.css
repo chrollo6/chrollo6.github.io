@@ -298,6 +298,7 @@ p.text {
   text-align: left !important;
   font-size: 12pt !important;
   margin-bottom: 10px !important;
+  text-indent: 1em !important;
 }
 
 p#author {
