@@ -295,7 +295,7 @@ p {
 
 p#quote {
   text-transform: lowercase;
-  text-align: left;
+  text-align: center;
   font-size: 12pt;
   margin-bottom: 0;
 }
