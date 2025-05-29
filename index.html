@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chrollo</title>
   <style>
+    html {
+      font-size: 100%; /* 16px default */
+    }
+
+    @media (min-width: 1920px) {
+      html {
+        font-size: 112.5%; /* 18px */
+      }
+    }
+
+    @media (min-width: 2560px) {
+      html {
+        font-size: 125%; /* 20px */
+      }
+    }
+
     html, body {
       margin: 0;
       padding: 0;
@@ -30,6 +46,7 @@
     }
 
     p {
+      font-size: 1.125rem;
       max-width: 80ch;
       margin: 0.75rem auto;
       line-height: 1.6;
@@ -42,7 +59,7 @@
 
     .footer {
       margin-top: 2rem;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       color: #666;
     }
   </style>
