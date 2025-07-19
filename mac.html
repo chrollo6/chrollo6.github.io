@@ -35,9 +35,22 @@
 .toc a:hover {
   text-decoration: underline;
 }
+
+.back-to-top {
+  text-align: right;
+  margin: 0.5rem 0 2rem 0;
+}
+.back-to-top a {
+  color: #0af;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.back-to-top a:hover {
+  text-decoration: underline;
+}
 </style></head>
 <body>
-<div class="toggle-controls" style="display:flex; align-items:center; gap:1rem;">
+<div class="toggle-controls" id="top" style="display:flex; align-items:center; gap:1rem;">
 <button onclick="expandAll()">Expand All</button>
 <button onclick="collapseAll()">Collapse All</button>
 <div class="search-box" style="margin-left:auto;">
@@ -60,6 +73,10 @@
 </tbody>
 </table>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="🖱️-section-2-mac-shortcuts-&amp;-gestures">🖱️ Section 2: Mac Shortcuts &amp; Gestures</summary>
 <ul>
@@ -71,6 +88,10 @@
 <li><strong>Option + CMD + V</strong> — Move files</li>
 </ul>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="🪟-section-3-window-control-shortcuts">🪟 Section 3: Window Control Shortcuts</summary>
 <table>
@@ -84,6 +105,10 @@
 </tbody>
 </table>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="⌨️-section-4-text-navigation-shortcuts">⌨️ Section 4: Text Navigation Shortcuts</summary>
 <table>
@@ -95,6 +120,10 @@
 </tbody>
 </table>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="💡-section-5-bonus-essential-mac-tips-for-windows-users">💡 Section 5: Bonus: Essential Mac Tips for Windows Users</summary>
 <ul>
@@ -105,6 +134,10 @@
 <li>DMG files are like virtual CDs — you can eject them</li>
 </ul>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="🛠️-section-6-useful-macos-terminal-commands">🛠️ Section 6: Useful macOS Terminal Commands</summary>
 <ul>
@@ -119,6 +152,10 @@
 <li><code>sudo shutdown -h now</code> — Shutdown your Mac immediately</li>
 </ul>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="📋-section-7-clipboard-&amp;-copy-tips">📋 Section 7: Clipboard &amp; Copy Tips</summary>
 <ul>
@@ -129,6 +166,10 @@
 <li>Clipboard is system-wide: works between Terminal, Notes, and GUI apps</li>
 </ul>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="⚙️-section-8-automator-&amp;-shortcuts">⚙️ Section 8: Automator &amp; Shortcuts</summary>
 <ul>
@@ -139,6 +180,10 @@
 <li>Automator can also run shell scripts or AppleScript</li>
 </ul>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="⌨️-section-9-hidden-keyboard-gems">⌨️ Section 9: Hidden Keyboard Gems</summary>
 <ul>
@@ -150,6 +195,10 @@
 <li><strong>CMD + Option + Esc</strong> — Force quit window (like Task Manager)</li>
 </ul>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <details open="">
 <summary id="🧾-section-10-aliases-and-.zshrc">🧾 Section 10: Aliases and .zshrc</summary>
 <p><strong>Aliases</strong> let you create shortcuts for terminal commands. They save keystrokes and reduce errors for repetitive tasks.</p>
@@ -167,6 +216,10 @@ alias whisper="whisper --model medium --language en"</code></pre>
 </ol>
 <p>You can also export environment variables or tweak prompt settings here.</p>
 </details>
+&lt;div class="back-to-top"&gt;
+&lt;a href="#top"&gt;↑ Back to Top&lt;/a&gt;
+&lt;/div&gt;
+
 <script>
 function expandAll() {
   document.querySelectorAll("details").forEach(d => d.open = true);
